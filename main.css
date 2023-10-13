@@ -189,6 +189,18 @@ body {
     color: var(--SBMTBUTTON);
 }
 
+.submit-button__btn {
+    border: none;
+    background-color: var(--SBMTBUTTON);
+    color: #FFFFFF;
+    border-radius: 0.2rem;
+    height: 4vh;
+    width: 50%;
+    margin: 2rem 0;
+    font-family: inherit;
+    font-weight: bold;
+}
+
 /* MODIFIERS */
 
 .header--text-main {
