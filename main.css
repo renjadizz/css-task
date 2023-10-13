@@ -9,6 +9,7 @@
 }
 
 /* GENERAL STYLES */
+
 body {
     background-color: var(--BGCOLOR);
     height: 100vh;
@@ -33,4 +34,11 @@ body {
 }
 
 /* ELEMENTS */
+
+.container__image {
+    max-width: 100vw;
+    max-height: 80vh;
+}
+
+
 /* MODIFIERS */
