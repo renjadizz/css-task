@@ -46,10 +46,6 @@ body {
     flex-wrap: wrap;
 }
 
-.container-right {
-    max-width: 80%;
-}
-
 .social-buttons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -76,6 +72,10 @@ body {
 .investor-radio-button {
     display: flex;
     justify-content: space-between;
+}
+
+.investor-textarea{
+    margin-bottom: 2rem;
 }
 
 /* ELEMENTS */
