@@ -50,11 +50,35 @@ body {
     max-width: 80%;
 }
 
+.social-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.8rem;
+}
+
+
 /* ELEMENTS */
 
 .container__image {
     max-width: 100vw;
     max-height: 80vh;
+}
+
+.social-buttons__btn {
+    border: none;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #EEEEEE;
+    padding: 0.7rem;
+    width: 13rem;
+    margin: 2rem 0;
+}
+
+.social-buttons__icon {
+    max-width: 1rem;
+    max-height: 1rem;
+    float: left;
+    margin-left: 0.5rem;
 }
 
 /* MODIFIERS */
@@ -65,4 +89,12 @@ body {
 
 .header--text-secondary {
     color: var(--SECONDARYTEXT);
+}
+
+.social-buttons__btn--fb {
+    background-color: var(--FBBUTTON);
+}
+
+.social-buttons__btn--in {
+    background-color: var(--INBUTTON);
 }
