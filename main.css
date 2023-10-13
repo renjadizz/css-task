@@ -56,6 +56,11 @@ body {
     gap: 1.8rem;
 }
 
+.or-separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* ELEMENTS */
 
@@ -79,6 +84,23 @@ body {
     max-height: 1rem;
     float: left;
     margin-left: 0.5rem;
+}
+
+.or-separator__text {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    grid-gap: 0.5rem;
+    width: 50%;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.or-separator__text:before,
+.or-separator__text:after {
+    content: "";
+    display: block;
+    border-top: 1px solid #EEEEEE;
 }
 
 /* MODIFIERS */
