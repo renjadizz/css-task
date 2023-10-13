@@ -1,11 +1,14 @@
 /* VARIABLES */
+
 :root {
     /* COLORS */
+
     --BGCOLOR: #EFF6FF;
     --MAINTEXT: #2A4A5C;
     --FBBUTTON: #255A9B;
     --INBUTTON: #0076B6;
     --SBMTBUTTON: #3698FB;
+    --SECONDARYTEXT: #7B8A92;
 }
 
 /* GENERAL STYLES */
@@ -29,8 +32,22 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
+@media (max-width: 1100px) {
+    .main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .sides {
     background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-right {
+    max-width: 80%;
 }
 
 /* ELEMENTS */
@@ -40,5 +57,12 @@ body {
     max-height: 80vh;
 }
 
-
 /* MODIFIERS */
+
+.header--text-main {
+    color: var(--MAINTEXT);
+}
+
+.header--text-secondary {
+    color: var(--SECONDARYTEXT);
+}
