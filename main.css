@@ -180,6 +180,15 @@ body {
     font-family: inherit;
 }
 
+.agreement-checkbox__container__checkmark {
+    color: #96A5B1;
+    font-size: 0.85rem;
+}
+
+.agreement-checkbox__container__link {
+    color: var(--SBMTBUTTON);
+}
+
 /* MODIFIERS */
 
 .header--text-main {
