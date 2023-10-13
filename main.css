@@ -54,12 +54,23 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.8rem;
+    margin: 2rem 0;
 }
 
 .or-separator {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.float-text-container {
+    border: solid 1px #ccc;
+    padding: 0 8px;
+    position: relative;
+}
+
+.float-text-container:focus-within {
+    border-left: 1px solid var(--SBMTBUTTON);
 }
 
 /* ELEMENTS */
@@ -76,7 +87,6 @@ body {
     color: #EEEEEE;
     padding: 0.7rem;
     width: 13rem;
-    margin: 2rem 0;
 }
 
 .social-buttons__icon {
@@ -101,6 +111,19 @@ body {
     content: "";
     display: block;
     border-top: 1px solid #EEEEEE;
+}
+
+.float-text-container__label {
+    font-size: 1rem;
+    position: absolute;
+    padding-left: 0.1rem;
+}
+
+.float-text-container__field {
+    border: none;
+    font-size: 1rem;
+    margin: 1.5rem 0 0.5rem;
+    outline: 0;
 }
 
 /* MODIFIERS */
